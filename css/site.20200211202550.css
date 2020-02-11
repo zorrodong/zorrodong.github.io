@@ -1,0 +1,171 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box}input[type=text]{-webkit-appearance:none;appearance: none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+body,div{font-size:0;}
+p, span,h1,h2,h3,h4,h5,h6{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;}
+sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em;}
+sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em;}
+ul{display:block;word-spacing:normal;word-wrap:break-word;list-style-type:none;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0;}
+li{display:block;}
+li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select::none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+form{display:inline-block;}
+a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+textarea{resize:none;}
+.shm-l{float:left;clear:left;}
+.shm-r{float:right;clear:right;}
+.whitespacefix{word-spacing:-1px;}
+video:not(#video_background):not(.videoinline){width:100%;max-width:900px;}
+video:-webkit-full-screen{max-width:100% !important;}
+video:-moz-full-screen{max-width:100% !important;}
+video:-ms-fullscreen{max-width:100% !important;}
+video:fullscreen{max-width:100% !important;}
+.player1.fullscreen1-active video{max-width:100% !important;}
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.animated{-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
+@-webkit-keyframes fadeInUp{from{opacity:0;-webkit-transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none}}@keyframes fadeInUp{from{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}
+#body{background-color:rgb(255,255,255);}
+.vis{display:inline-block;vertical-align:top;}
+.pos{position:relative;margin-top:0;}
+.size{width:100%;min-width:960px;min-height:860px;}
+.cont{z-index:1;pointer-events:none;border:0;overflow:hidden;}
+.fixed{background-attachment:fixed;background-image:url(../images/503920843-cells-under-microscope-960.jpg);background-color:rgb(255,255,255);background-repeat:no-repeat;background-position:50% 50%;background-size:cover;background-clip:padding-box;}
+.pos-2{position:relative;margin-top:103px;}
+.vis-2{display:block;vertical-align:top;}
+.section{min-width:960px;width:960px;margin-left:auto;margin-right:auto;}
+.pos-3{position:relative;margin-left:20px;margin-top:0;}
+.size-2{min-width:940px;width:940px;min-height:166px;}
+.cont-2{z-index:2;pointer-events:auto;}
+.vis-3{display:inline-block;vertical-align:top;overflow:hidden;}
+.pos-4{position:relative;margin-left:151px;margin-top:0;}
+.size-3{min-width:600px;width:600px;min-height:103px;height:103px;}
+.cont-3{z-index:3;}
+.para{padding-top:0;text-indent:0;padding-right:0;text-align:center;}
+.font{font-family:"Arial Black", "Arial Bold", Gadget, sans-serif;font-size:48px;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;color:rgb(255,255,255);background-color:initial;line-height:95px;letter-spacing:normal;text-shadow:none;}
+.pos-5{position:relative;margin-left:0;margin-top:12px;}
+.size-4{min-width:940px;width:940px;min-height:51px;}
+.cont-4{pointer-events:none;}
+.pos-6{position:relative;margin-left:0;margin-top:0;}
+.size-5{min-width:84px;width:84px;min-height:51px;height:51px;}
+.cont-5{z-index:4;pointer-events:auto;}
+.font-2{font-family:"Arial Black", "Arial Bold", Gadget, sans-serif;font-size:24px;font-weight:700;font-style:normal;text-decoration:underline;text-transform:none;color:rgb(255,255,255);background-color:initial;line-height:47px;letter-spacing:normal;text-shadow:none;}
+.pos-7{position:relative;margin-left:53px;margin-top:0;}
+.cont-6{z-index:5;pointer-events:auto;}
+.pos-8{position:relative;margin-left:54px;margin-top:0;}
+.size-6{min-width:131px;width:131px;min-height:51px;height:51px;}
+.cont-7{z-index:6;pointer-events:auto;}
+.pos-9{position:relative;margin-left:45px;margin-top:0;}
+.size-7{min-width:98px;width:98px;min-height:51px;height:51px;}
+.cont-8{z-index:7;pointer-events:auto;}
+.pos-10{position:relative;margin-left:46px;margin-top:0;}
+.size-8{min-width:160px;width:160px;min-height:51px;height:51px;}
+.cont-9{z-index:8;pointer-events:auto;}
+.pos-11{position:relative;margin-left:35px;margin-top:0;}
+.size-9{min-width:150px;width:150px;min-height:51px;height:51px;}
+.cont-10{z-index:9;pointer-events:auto;}
+.pos-12{position:relative;margin-left:0;margin-top:67px;}
+.size-10{min-width:960px;width:960px;min-height:159px;height:159px;}
+.cont-11{z-index:10;pointer-events:auto;}
+.para-2{padding-top:0;text-indent:0;padding-right:0;text-align:left;}
+.font-3{font-family:Lato;font-size:24px;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;color:rgb(255,255,255);background-color:initial;line-height:40px;letter-spacing:normal;text-shadow:none;}
+.pos-13{margin-left:24px;}
+.para-3{padding-top:0;text-indent:-18px;padding-right:0;text-align:left;}
+.pos-14{position:relative;margin-left:0;margin-top:25px;}
+.size-11{min-width:960px;width:960px;min-height:166px;}
+.colwrapper{line-height:0;}
+.size-12{min-width:960px;width:960px;min-height:166px;height:166px;}
+.cont-13{z-index:11;pointer-events:auto;}
+.pos-15{position:relative;margin-left:269px;margin-top:-157px;}
+.size-13{min-width:686px;width:686px;min-height:146px;}
+.size-14{min-width:199px;width:199px;min-height:145px;height:145px;}
+.cont-14{z-index:12;pointer-events:auto;}
+.img{position:absolute;left:2px;width:196px;height:145px;top:0;border:0;}
+.img-2{left:2px;width:196px;height:145px;top:0;display:inline-block;}
+.pos-16{position:relative;margin-left:42px;margin-top:0;}
+.size-15{min-width:240px;width:240px;min-height:146px;height:146px;}
+.cont-15{z-index:13;pointer-events:auto;}
+.img-3{position:absolute;left:1px;width:238px;height:146px;top:0;border:0;}
+.img-4{left:1px;width:238px;height:146px;top:0;display:inline-block;}
+.pos-17{position:relative;margin-left:40px;margin-top:0;}
+.size-16{min-width:165px;width:165px;min-height:146px;height:146px;}
+.cont-16{z-index:14;pointer-events:auto;}
+.img-5{position:absolute;left:5px;width:155px;height:146px;top:0;border:0;}
+.img-6{left:5px;width:155px;height:146px;top:0;display:inline-block;}
+.pos-18{position:relative;margin-left:0;margin-top:56px;}
+.size-17{min-width:960px;width:960px;min-height:80px;height:80px;}
+.cont-17{z-index:15;pointer-events:auto;}
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+.fixed{background-image:url(../images/503920843-cells-under-microscope-1920.jpg);background-attachment:fixed;}
+}
+@media (min-width:960px) {
+.fixed{background-image:url(../images/503920843-cells-under-microscope-1200.jpg);background-attachment:fixed;}
+}
+@media (min-width:960px) and (-webkit-min-device-pixel-ratio:2),(min-width:960px) and (min-resolution:192dpi) {
+.fixed{background-image:url(../images/503920843-cells-under-microscope-2400.jpg);background-attachment:fixed;}
+}
+@media (min-width:1200px) {
+.fixed{background-image:url(../images/503920843-cells-under-microscope-1600.jpg);background-attachment:fixed;}
+}
+@media (min-width:1200px) and (-webkit-min-device-pixel-ratio:2),(min-width:1200px) and (min-resolution:192dpi) {
+.fixed{background-image:url(../images/503920843-cells-under-microscope-3200.jpg);background-attachment:fixed;}
+}
+@media (min-width:1600px) {
+.fixed{background-image:url(../images/503920843-cells-under-microscope-2000.jpg);background-attachment:fixed;}
+}
+@media (min-width:1600px) and (-webkit-min-device-pixel-ratio:2),(min-width:1600px) and (min-resolution:192dpi) {
+.fixed{background-image:url(../images/503920843-cells-under-microscope-4000.jpg);background-attachment:fixed;}
+}
+.fixed-2{background-attachment:fixed;background-image:url(../images/503920843-cells-under-microscope-960-1.jpg);background-color:rgb(255,255,255);background-repeat:no-repeat;background-position:50% 50%;background-size:cover;background-clip:padding-box;}
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+.fixed-2{background-image:url(../images/503920843-cells-under-microscope-1920.jpg);background-attachment:fixed;}
+}
+@media (min-width:960px) {
+.fixed-2{background-image:url(../images/503920843-cells-under-microscope-1200-1.jpg);background-attachment:fixed;}
+}
+@media (min-width:960px) and (-webkit-min-device-pixel-ratio:2),(min-width:960px) and (min-resolution:192dpi) {
+.fixed-2{background-image:url(../images/503920843-cells-under-microscope-2400.jpg);background-attachment:fixed;}
+}
+@media (min-width:1200px) {
+.fixed-2{background-image:url(../images/503920843-cells-under-microscope-1600-1.jpg);background-attachment:fixed;}
+}
+@media (min-width:1200px) and (-webkit-min-device-pixel-ratio:2),(min-width:1200px) and (min-resolution:192dpi) {
+.fixed-2{background-image:url(../images/503920843-cells-under-microscope-3200.jpg);background-attachment:fixed;}
+}
+@media (min-width:1600px) {
+.fixed-2{background-image:url(../images/503920843-cells-under-microscope-2000-1.jpg);background-attachment:fixed;}
+}
+@media (min-width:1600px) and (-webkit-min-device-pixel-ratio:2),(min-width:1600px) and (min-resolution:192dpi) {
+.fixed-2{background-image:url(../images/503920843-cells-under-microscope-4000.jpg);background-attachment:fixed;}
+}
+.pos-19{position:relative;margin-left:0;margin-top:40px;}
+.pos-20{position:relative;margin-left:741px;margin-top:-155px;}
+.pos-21{position:relative;margin-left:0;margin-top:26px;}
+.pos-22{position:relative;margin-left:720px;margin-top:-156px;}
+.pos-23{position:relative;margin-left:0;margin-top:27px;}
+.pos-24{position:relative;margin-left:758px;margin-top:-156px;}
+.size-18{min-width:960px;width:960px;min-height:269px;}
+.size-19{min-width:212px;width:212px;min-height:268px;}
+.pos-25{position:relative;margin-left:37px;margin-top:0;}
+.size-20{min-width:138px;width:138px;min-height:148px;height:148px;}
+.img-7{position:absolute;left:0;width:138px;height:148px;top:0;-webkit-border-radius:69px;-moz-border-radius:69px;border-radius:69px;border:0;}
+.img-8{left:0;width:138px;height:148px;top:0;display:inline-block;}
+.size-21{min-width:212px;width:212px;min-height:120px;height:120px;}
+.cont-18{z-index:21;pointer-events:auto;}
+.font-4{font-family:Lato;font-size:20px;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;color:rgb(255,255,255);background-color:initial;line-height:34px;letter-spacing:normal;text-shadow:none;}
+.img-9{position:absolute;left:0;width:138px;height:148px;top:0;}
+.pos-26{position:relative;margin-left:28px;margin-top:1px;}
+.cont-19{z-index:16;pointer-events:auto;}
+.cont-20{z-index:18;pointer-events:auto;}
+.pos-27{position:relative;margin-left:0;margin-top:6px;}
+.cont-21{z-index:22;pointer-events:auto;}
+.cont-22{z-index:23;pointer-events:auto;}
+.cont-23{z-index:20;pointer-events:auto;}
+.cont-24{z-index:17;pointer-events:auto;}
+.cont-25{z-index:25;pointer-events:auto;}
+.cont-26{z-index:19;pointer-events:auto;}
+.cont-27{z-index:24;pointer-events:auto;}
+.pos-28{position:relative;margin-left:0;margin-top:30px;}
+.size-22{min-width:960px;width:960px;min-height:495px;height:495px;}
+.font-5{font-family:TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;font-size:20px;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;color:rgb(255,255,255);background-color:initial;line-height:32px;letter-spacing:normal;text-shadow:none;}
+.font-6{font-family:TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;font-size:20px;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;color:rgb(255,255,255);background-color:initial;line-height:32px;letter-spacing:normal;text-shadow:none;}
+.font-7{font-family:TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;font-size:20px;font-weight:700;font-style:italic;text-decoration:none;text-transform:none;color:rgb(255,255,255);background-color:initial;line-height:32px;letter-spacing:normal;text-shadow:none;}
+.size-23{min-width:960px;width:960px;min-height:200px;height:200px;}
+.pos-29{position:relative;margin-left:0;margin-top:55px;}
